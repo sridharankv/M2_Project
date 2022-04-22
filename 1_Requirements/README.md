@@ -17,13 +17,13 @@ we need door lock system for securty purposes
 
 ## Requirnments for this project are
 ### hardware requirnments
-    *  microcontroller
-    *  stepper motor
-    *  keypad
-    *  buzzer
-    *  lcd display
-    *  motor driver controller
-    *  power source, etc
+* microcontroller
+*  stepper motor
+*  keypad
+*  buzzer
+*  lcd display
+*  motor driver controller
+*  power source, etc
 
 ## High Level Requirements
 
