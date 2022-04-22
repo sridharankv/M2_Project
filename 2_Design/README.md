@@ -90,6 +90,7 @@ For simplicity and speed, Motor Coils are modelled as resistors.
 Connection to default audio output in you machine.
 
 If no default audio device is found, you will se an "X" in the symbol.
+
 ![alt text](https://github.com/sridharankv/M2_Project/blob/main/2_Design/Diagrams/Speaker.png)
 
 ### Display
@@ -99,4 +100,4 @@ HD44780 LCD:
 5x8 dot-matrix liquid crystal display based on Hitachi HD44780 LCD controller.
 
 Configurable in characters rows and columns.
-![alt text]()https://github.com/sridharankv/M2_Project/blob/main/2_Design/Diagrams/Display.png
+![alt text](https://github.com/sridharankv/M2_Project/blob/main/2_Design/Diagrams/Display.png)
