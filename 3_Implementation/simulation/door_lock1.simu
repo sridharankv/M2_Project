@@ -1,0 +1,159 @@
+<circuit Simu_Step_nS="1000" animate="0" Speed_per="100" type="simulide_0.4" noLinAcc="5" Speed_sps="1000000" reactStep="50">
+
+Unique  Id: TextComponent-1660: 
+Circuit Id: TextComponent-1658
+<item Font_Size="10" labelx="-16" Font="Helvetica [Cronyx]" rotation="0" Border="1" boardPos="-1e+06,-1e+06" Margin="5" labely="-24" Opacity="1" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" Fixed_Width="false" itemtype="TextComponent" id="TextComponent-1658" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="TextComponent-1660" x="336" y="-208" Text="UNLOCK" valLabely="0"/>
+
+Unique  Id: TextComponent-1658: 
+Circuit Id: TextComponent-1658
+<item Font_Size="10" labelx="-16" Font="Helvetica [Cronyx]" rotation="0" Border="1" boardPos="-1e+06,-1e+06" Margin="5" labely="-24" Opacity="1" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" Fixed_Width="false" itemtype="TextComponent" id="TextComponent-1658" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="TextComponent-1658" x="252" y="-132" Text="LOCK" valLabely="0"/>
+
+Unique  Id: Ground-1315: 
+Circuit Id: Ground-950
+<item labelx="-16" rotation="0" boardPos="-1e+06,-1e+06" labely="8" boardRot="-1000000" labelrot="0" circRot="3.9250755603354529e+150" hflip="1" itemtype="Ground" id="Ground-950" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Ground-1315" x="156" y="-20" valLabely="0"/>
+
+Unique  Id: Image-1314: 
+Circuit Id: LED as an audio output
+<item labelx="-51" rotation="0" Border="2" H_size="112" boardPos="-1e+06,-1e+06" Z_Value="-1" labely="-65" Opacity="1" boardRot="-1000000" V_size="135" labelrot="0" circRot="0" hflip="1" itemtype="Image" id="LED as an audio output" Show_id="true" vflip="1" Color="#a0a0a4" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" Image_File="../../../../../../Pictures/buzzer.png" objectName="Image-1314" x="116" y="-40" valLabely="0"/>
+
+Unique  Id: ULN2001-968: 
+Circuit Id: Motor Driver (ULN2001-2)
+<item labelx="-12" rotation="0" boardPos="-1e+06,-1e+06" labely="-29" boardRot="-1000000" labelrot="0" circRot="2.1219957835542876e-314" hflip="1" Name="ULN2001" itemtype="Subcircuit" id="Motor Driver (ULN2001-2)" Show_id="true" vflip="1" circPos="0,0" valLabelx="13" valLabRot="-90" mainComp="false" Logic_Symbol="true" objectName="ULN2001-968" x="92" BoardId="" y="-236" valLabely="36"/>
+
+Unique  Id: Node-967: 
+Circuit Id: Node-170
+<item labelx="-16" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Node" id="Node-170" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Node-967" x="132" y="-144" valLabely="0"/>
+
+Unique  Id: Stepper-966: 
+Circuit Id: Lock/Unlock Stepper Motor
+<item labelx="-36" Steps="8" rotation="0" boardPos="-1e+06,-1e+06" labely="-78" boardRot="-1000000" labelrot="0" circRot="5.5880484605215011e-317" hflip="1" Unit=" Ω" Resistance="100" itemtype="Stepper" id="Lock/Unlock Stepper Motor" Show_id="true" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Stepper-966" x="268" Bipolar="false" y="-196" valLabely="0"/>
+
+Unique  Id: Battery-965: 
+Circuit Id: Battery-166
+<item Show_Volt="true" labelx="-18" rotation="0" boardPos="-1e+06,-1e+06" labely="-22" boardRot="-1000000" labelrot="0" circRot="0" hflip="-1" itemtype="Battery" id="Battery-166" Show_id="false" vflip="1" circPos="0,0" valLabelx="-10" valLabRot="0" mainComp="false" objectName="Battery-965" x="112" Volts="5" y="-144" valLabely="10"/>
+
+Unique  Id: Ground-950: 
+Circuit Id: Ground-950
+<item labelx="-16" rotation="0" boardPos="-1e+06,-1e+06" labely="8" boardRot="-1000000" labelrot="0" circRot="3.9250755603354529e+150" hflip="1" itemtype="Ground" id="Ground-950" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Ground-950" x="-432" y="-268" valLabely="0"/>
+
+Unique  Id: Hd44780-865: 
+Circuit Id: Display (Hd44780-865)
+<item labelx="64" rotation="0" Cols="16" boardPos="-1e+06,-1e+06" labely="-95" boardRot="-1000000" labelrot="0" circRot="5.5880484605215011e-317" hflip="1" Rows="2" itemtype="Hd44780" id="Display (Hd44780-865)" Show_id="true" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Hd44780-865" x="-428" y="-304" valLabely="0"/>
+
+Unique  Id: KeyPad-2: 
+Circuit Id: KeyPad as an input sensor
+<item labelx="-26" rotation="0" Cols="3" boardPos="-1e+06,-1e+06" labely="-30" boardRot="-1000000" Key_Labels="123456789*0#" labelrot="0" circRot="0" hflip="1" Rows="4" itemtype="KeyPad" id="KeyPad as an input sensor" Show_id="true" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="KeyPad-2" x="-168" y="-372" valLabely="0"/>
+
+Unique  Id: atmega328-1: 
+Circuit Id: atmega328-1
+<item Program="doorLock.hex" labelx="0" Mhz="16" rotation="-360" boardPos="-1e+06,-1e+06" labely="-20" boardRot="-1000000" labelrot="0" circRot="-2.0153869001864431e-309" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" hflip="1" Name="" itemtype="AVR" id="atmega328-1" Show_id="true" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" varList=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," Auto_Load="false" mainComp="false" Logic_Symbol="false" objectName="atmega328-1" x="-96" y="-268" Init_gdb="false" valLabely="0"/>
+
+Unique  Id: Led-1144: 
+Circuit Id: Led-1144
+<item labelx="-16" MaxCurrent="0.029999999999999999" rotation="0" Grounded="false" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="2.9686705072778811e-316" hflip="1" Resistance="0.59999999999999998" itemtype="Led" id="Led-1144" Show_id="false" vflip="1" Color="0" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Led-1144" x="116" y="-44" valLabely="0" Threshold="2.3999999999999999"/>
+
+Unique  Id: TextComponent-1486: 
+Circuit Id: TextComponent-1486
+<item Font_Size="10" labelx="-16" Font="Helvetica [Cronyx]" rotation="0" Border="1" boardPos="-1e+06,-1e+06" Margin="5" labely="-24" Opacity="1" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" Fixed_Width="false" itemtype="TextComponent" id="TextComponent-1486" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="TextComponent-1486" x="-380" y="-52" Text="GUID&#xa;&#xa;1) you can rewatch the instructions on display by pressing &quot;*&quot; button&#xa;2) you can Lock/Unlock by&#xa;   i) press &quot;#&quot; to lock&#xa;  ii) Enter the password to unlock&#xa;" valLabely="0"/>
+
+Unique  Id: TextComponent-1487: 
+Circuit Id: TextComponent-1487
+<item Font_Size="10" labelx="-16" Font="Helvetica [Cronyx]" rotation="0" Border="1" boardPos="-1e+06,-1e+06" Margin="5" labely="-24" Opacity="1" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" Fixed_Width="false" itemtype="TextComponent" id="TextComponent-1487" Show_id="false" vflip="1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="TextComponent-1487" x="-232" y="-460" Text="... PASSWORD PROTECTED DOOR LOCK SYSTEM ...&#xa;&#x9;&#x9;By-Nehal Kamble" valLabely="0"/>
+
+Unique  Id: Connector-3: 
+Circuit Id: Connector-3
+<item labelx="-16" endpinid="atmega328-1-PC0" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-3" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin0" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-3" x="-120" pointList="-120,-364,20,-364,20,-220,-56,-220" enodeid="Circ_eNode-1661" y="-364" valLabely="0"/>
+
+Unique  Id: Connector-13: 
+Circuit Id: Connector-13
+<item labelx="-16" endpinid="atmega328-1-PC1" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-13" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-13" x="-120" pointList="-120,-348,12,-348,12,-228,-56,-228" enodeid="Circ_eNode-1662" y="-348" valLabely="0"/>
+
+Unique  Id: Connector-14: 
+Circuit Id: Connector-14
+<item labelx="-16" endpinid="atmega328-1-PC2" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-14" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin2" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-14" x="-120" pointList="-120,-332,4,-332,4,-236,-56,-236" enodeid="Circ_eNode-1663" y="-332" valLabely="0"/>
+
+Unique  Id: Connector-15: 
+Circuit Id: Connector-15
+<item labelx="-16" endpinid="atmega328-1-PC3" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-15" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin3" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-15" x="-120" pointList="-120,-316,-4,-316,-4,-244,-56,-244" enodeid="Circ_eNode-1664" y="-316" valLabely="0"/>
+
+Unique  Id: Connector-925: 
+Circuit Id: Connector-925
+<item labelx="-16" endpinid="atmega328-1-PD0" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-925" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin4" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-925" x="-168" pointList="-168,-300,-168,-252,-104,-252" enodeid="Circ_eNode-1665" y="-300" valLabely="0"/>
+
+Unique  Id: Connector-16: 
+Circuit Id: Connector-16
+<item labelx="-16" endpinid="atmega328-1-PD2" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-16" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin6" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-16" x="-136" pointList="-136,-300,-136,-236,-104,-236" enodeid="Circ_eNode-1666" y="-300" valLabely="0"/>
+
+Unique  Id: Connector-17: 
+Circuit Id: Connector-17
+<item labelx="-16" endpinid="atmega328-1-PD1" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-17" Show_id="false" vflip="1" startpinid="KeyPad-2-Pin5" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-17" x="-152" pointList="-152,-300,-152,-244,-104,-244" enodeid="Circ_eNode-1667" y="-300" valLabely="0"/>
+
+Unique  Id: Connector-945: 
+Circuit Id: Connector-945
+<item labelx="-16" endpinid="atmega328-1-PB0" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="nan" hflip="1" itemtype="Connector" id="Connector-945" Show_id="false" vflip="1" startpinid="Hd44780-865-PinRS" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-945" x="-412" pointList="-412,-296,-412,-156,-104,-156" enodeid="Circ_eNode-1668" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-946: 
+Circuit Id: Connector-946
+<item labelx="-16" endpinid="atmega328-1-PB7" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-946" Show_id="false" vflip="1" startpinid="Hd44780-865-dataPin7" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-946" x="-332" pointList="-332,-296,-332,-188,-104,-188" enodeid="Circ_eNode-1669" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-947: 
+Circuit Id: Connector-947
+<item labelx="-16" endpinid="atmega328-1-PB6" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-947" Show_id="false" vflip="1" startpinid="Hd44780-865-dataPin6" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-947" x="-340" pointList="-340,-296,-340,-196,-104,-196" enodeid="Circ_eNode-1670" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-948: 
+Circuit Id: Connector-948
+<item labelx="-16" endpinid="atmega328-1-PB5" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="1.9901655319717655e-236" hflip="1" itemtype="Connector" id="Connector-948" Show_id="false" vflip="1" startpinid="Hd44780-865-dataPin5" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-948" x="-348" pointList="-348,-296,-348,-128,-36,-128,-36,-188,-56,-188" enodeid="Circ_eNode-1671" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-949: 
+Circuit Id: Connector-949
+<item labelx="-16" endpinid="atmega328-1-PB4" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-949" Show_id="false" vflip="1" startpinid="Hd44780-865-dataPin4" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-949" x="-356" pointList="-356,-296,-356,-112,-20,-112,-20,-180,-56,-180" enodeid="Circ_eNode-1672" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-951: 
+Circuit Id: Connector-951
+<item labelx="-16" endpinid="Ground-950-Gnd" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-951" Show_id="false" vflip="1" startpinid="Hd44780-865-PinRW" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-951" x="-404" pointList="-404,-296,-404,-284,-432,-284" enodeid="Circ_eNode-1673" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-952: 
+Circuit Id: Connector-952
+<item labelx="-16" endpinid="atmega328-1-PB1" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-952" Show_id="false" vflip="1" startpinid="Hd44780-865-PinEn" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-952" x="-396" pointList="-396,-296,-396,-100,-44,-100,-44,-156,-56,-156" enodeid="Circ_eNode-1674" y="-296" valLabely="0"/>
+
+Unique  Id: Connector-1115: 
+Circuit Id: Connector-169
+<item labelx="-16" endpinid="Node-967-0" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-169" Show_id="false" vflip="1" startpinid="Battery-965-Pin0" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1115" x="128" pointList="128,-144,132,-144" enodeid="Circ_eNode-1675" y="-144" valLabely="0"/>
+
+Unique  Id: Connector-1117: 
+Circuit Id: Connector-157
+<item labelx="-16" endpinid="ULN2001-968-Out3" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-157" Show_id="false" vflip="1" startpinid="Stepper-966-PinA2" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1117" x="196" pointList="196,-180,176,-180,176,-212,132,-212" enodeid="Circ_eNode-1676" y="-180" valLabely="0"/>
+
+Unique  Id: Connector-1119: 
+Circuit Id: Connector-171
+<item labelx="-16" endpinid="ULN2001-968-Com" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-171" Show_id="false" vflip="1" startpinid="Node-967-2" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1119" x="132" pointList="132,-144,132,-172" enodeid="Circ_eNode-1675" y="-144" valLabely="0"/>
+
+Unique  Id: Connector-1122: 
+Circuit Id: Connector-172
+<item labelx="-16" endpinid="Stepper-966-PinCo" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-172" Show_id="false" vflip="1" startpinid="Node-967-1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1122" x="132" pointList="132,-144,160,-144,160,-196,196,-196" enodeid="Circ_eNode-1675" y="-144" valLabely="0"/>
+
+Unique  Id: Connector-1125: 
+Circuit Id: Connector-159
+<item labelx="-16" endpinid="ULN2001-968-Out1" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-159" Show_id="false" vflip="1" startpinid="Stepper-966-PinA1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1125" x="196" pointList="196,-228,132,-228" enodeid="Circ_eNode-1677" y="-228" valLabely="0"/>
+
+Unique  Id: Connector-1127: 
+Circuit Id: Connector-168
+<item labelx="-16" endpinid="ULN2001-968-Gnd" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-168" Show_id="false" vflip="1" startpinid="Battery-965-Pin1" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1127" x="96" pointList="96,-144,84,-144,84,-172" enodeid="Circ_eNode-1678" y="-144" valLabely="0"/>
+
+Unique  Id: Connector-1129: 
+Circuit Id: Connector-1129
+<item labelx="-16" endpinid="ULN2001-968-In1" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-1129" Show_id="false" vflip="1" startpinid="atmega328-1-PB2" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1129" x="-56" pointList="-56,-164,52,-164,52,-228,84,-228" enodeid="Circ_eNode-1679" y="-164" valLabely="0"/>
+
+Unique  Id: Connector-1130: 
+Circuit Id: Connector-1130
+<item labelx="-16" endpinid="ULN2001-968-In3" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-1130" Show_id="false" vflip="1" startpinid="atmega328-1-PC4" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1130" x="-56" pointList="-56,-252,44,-252,44,-212,84,-212" enodeid="Circ_eNode-1680" y="-252" valLabely="0"/>
+
+Unique  Id: Connector-1313: 
+Circuit Id: Connector-1313
+<item labelx="-16" endpinid="Led-1144-lPin" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="1.3796130175881106e-306" hflip="1" itemtype="Connector" id="Connector-1313" Show_id="false" vflip="1" startpinid="atmega328-1-PB3" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1313" x="-56" pointList="-56,-172,24,-172,24,-44,100,-44" enodeid="Circ_eNode-1681" y="-172" valLabely="0"/>
+
+Unique  Id: Connector-1485: 
+Circuit Id: Connector-1485
+<item labelx="-16" endpinid="Ground-1315-Gnd" rotation="0" boardPos="-1e+06,-1e+06" labely="-24" boardRot="-1000000" labelrot="0" circRot="0" hflip="1" itemtype="Connector" id="Connector-1485" Show_id="false" vflip="1" startpinid="Led-1144-rPin" circPos="0,0" valLabelx="0" valLabRot="0" mainComp="false" objectName="Connector-1485" x="132" pointList="132,-44,156,-44,156,-36" enodeid="Circ_eNode-1682" y="-44" valLabely="0"/>
+ 
+</circuit>
