@@ -83,6 +83,7 @@ Step by step Motor.
 * Configurable number of steps per revolution.
 * Configurable coil resistance.
 For simplicity and speed, Motor Coils are modelled as resistors.
+
 ![alt text](https://github.com/sridharankv/M2_Project/blob/main/2_Design/Diagrams/Stepper%20motor.png)
 
 ### Speaker
@@ -100,4 +101,5 @@ HD44780 LCD:
 5x8 dot-matrix liquid crystal display based on Hitachi HD44780 LCD controller.
 
 Configurable in characters rows and columns.
+
 ![alt text](https://github.com/sridharankv/M2_Project/blob/main/2_Design/Diagrams/Display.png)
