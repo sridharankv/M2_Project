@@ -1,7 +1,6 @@
 #Main application file name
 MAIN_APP = doorLock
-#Main hex file path in windows format
-MAIN_HEX_PATH = C:\Users\kambl\Documents\github\M2_EmbSys\project\3_IMPLEMENTATION\$(MAIN_APP).hex
+
 
 ifdef OS
    RM = del /q
