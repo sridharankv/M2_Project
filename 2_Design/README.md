@@ -19,7 +19,9 @@
 # Components Used
 
 ### Keypad
+
 It is customizable in size ( rows and columns ) and key labels. By default it is an standard 12 keys; 4 rows, 3 Columns.
+
 ![alt text](https://github.com/sridharankv/M2_Project/blob/main/2_Design/Diagrams/Keypad.png)
 ### Atmega 328
 
